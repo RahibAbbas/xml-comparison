@@ -1,0 +1,22 @@
+<root>
+    <ApplicationID>647</ApplicationID>
+    <policymessages>
+        <com.auto.ccs.caf.bom.PolicyMessage>
+            <message>APP: SSN Invalid</message>
+            <authorityLevel>
+            </authorityLevel>
+            <type>SSN TIN</type>
+            <policyMessageType>EXCEPTION
+            </policyMessageType>
+            <adverseActionRanking>110</adverseActionRanking>
+            <adverseActionCode>
+                <string>322</string>
+            </adverseActionCode>
+            <ranks>40</ranks>
+            <policyFlag>true</policyFlag>
+            <displayFlag>true</displayFlag>
+            <storeFlag>true</storeFlag>
+            <policySeverity>VIOLATION</policySeverity>
+        </com.auto.ccs.caf.bom.PolicyMessage>
+    </policymessages>
+</root>

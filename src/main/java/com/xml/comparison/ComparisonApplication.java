@@ -34,8 +34,10 @@ public class ComparisonApplication implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         try {
-            String xmlBeforeFilePath = "C:\\Users\\Rahib\\Desktop\\beforeXml.xml"; // Provide the actual file path
-            String xmlAfterFilePath = "C:\\Users\\Rahib\\Desktop\\afterXml.xml";   // Provide the actual file path
+//          String xmlBeforeFilePath = "C:\\Users\\Rahib\\Desktop\\beforeXml.xml"; // Provide the actual file path
+//          String xmlAfterFilePath = "C:\\Users\\Rahib\\Desktop\\afterXml.xml";   // Provide the actual file path
+            String xmlAfterFilePath = "afterXml.xml";   // Provide in project file path
+            String xmlBeforeFilePath = "beforeXml.xml";   // Provide in project file path
 
             // Read XML content from files
             String xmlBefore = new String(Files.readAllBytes(Paths.get(xmlBeforeFilePath)));
