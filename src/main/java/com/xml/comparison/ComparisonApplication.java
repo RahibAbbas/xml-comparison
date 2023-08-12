@@ -142,7 +142,7 @@ public class ComparisonApplication implements CommandLineRunner {
 
     // Get ApplicationID from <ApplicationID> tag
     private static String getApplicationID(Document document) {
-        NodeList nodeList = document.getElementsByTagName("ApplicationID");
+        NodeList nodeList = document.getElementsByTagName("applicationID");
         if (nodeList.getLength() > 0) {
             return nodeList.item(0).getTextContent();
         }
